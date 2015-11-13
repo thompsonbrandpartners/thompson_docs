@@ -30,7 +30,7 @@ The purpose of these should be quite clear, but to clarify:
 
 * `development` should contain all 'in-development' changes and features that are ready for testing and *work*. This branch should not contain anything that would cause another developer issues if they were to 'branch-off' and begin developing a new feature.
 * `staging` should contain all changes and features that have been tested and are ready to be deployed to our staging server. In most cases, a `merge` into, or `push` onto this branch will trigger **auto deployment**, so we must be certain that we are happy before doing so. These are changes that we are happy for clients to review.
-* `master` should contain **only changes and features that are fully tested, signed off, and that we are happy to deploy to the LIVE server**. This branch should never auto-deploy as we should review all file changes manually beforehand. This reduces the likelihood of an incorrect file being modified/added/removed from the live environment. 
+* `master` should contain **only changes and features that are fully tested, signed off, and that we are happy to deploy to the LIVE server**. 
 
 {:#setup}
 ### File setup and initial commits
@@ -74,7 +74,7 @@ Before merging into `staging` it is important to review the commit history to en
 {:#merge-mast}
 ### Merging into the master branch
 
-When features have been fully tested and signed off on the `staging` branch and we are ready to go-live, the `staging` branch should be merged into `master`. This branch should not auto-deploy as it is important that files are reviewed before being made publically available.
+When features have been fully tested and signed off on the `staging` branch and we are ready to go-live, the `staging` branch should be merged into `master`. This branch should not auto-deploy as it is important that files are reviewed before being made publically available. This branch should never auto-deploy as we should review all file changes manually beforehand. This reduces the likelihood of an incorrect file being modified/added/removed from the live environment.
 
 {:#tagging}
 ### Tagging
