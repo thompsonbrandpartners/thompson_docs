@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Committing with Git"
-date:   2015-10-05 12:01:54
+date:   2015-11-13 12:01:54
 categories: git, rules
 ---
 
@@ -16,6 +16,7 @@ categories: git, rules
 * [If an issue exists, always reference the issue number in your commit message](#issue-exists)
 * [Ignoring files](#ignore)
 * [Excluding files](#exclude)
+* [Testing and issue tracking](#testing)
 
 {:#regularly}
 ### Commit regularly
@@ -52,7 +53,7 @@ For example use `“Fix issue ABC”` rather than `“Fixed bug ABC”`. A commi
 
 You reference the issue by adding a hash infront of the number, for example `"Fix shopping cart issue #123"`.
 
-In addition to this, if you wish to automatically close an issue at the same time as commiting your code, you can do so by simply using the word "Fix". For example `"Fix #123"`. However, unless this issue has been raised by yourself, you should not do this. Reference the information on Testing and Issue tracking below.
+In addition to this, if you wish to automatically close an issue at the same time as commiting your code, you can do so by simply using the word "Fix". For example `"Fix #123"`. However, unless this issue has been raised by yourself, you should not do this. Reference the information on Testing and issue tracking below.
 
 {:#ignore}
 ### Ignoring files
@@ -61,7 +62,7 @@ There are various files that should never appear in a remote repository, but whi
 
 Examples of these are:
 
-* css directory
+* css directory (if the server is running SASS)
 * sublime-project and sublime-workspace files
 * Temporary files such as .DS_Store
 * Config files (that are different to the live environment)
