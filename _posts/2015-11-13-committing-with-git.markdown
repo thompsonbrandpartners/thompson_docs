@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Committing with Git"
-date:   2015-11-13 12:01:54
-categories: git, rules
+date:   2015-11-13 13:52:54
+categories: databases, rules
 ---
 
 **The following information comprises some guidelines and best practices for committing code using Git. For the purposes of our internal workflow, we will assume the use of [Github][github] for storing remote repositories, and the [Tower][tower] application for managing your changes. However, most of these rules are also applicable when using Terminal or other desktop applications.**
