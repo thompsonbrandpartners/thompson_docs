@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Branching workflow with Git"
-date:   2015-10-05 12:58:54
+date:   2015-11-12 12:58:54
 categories: git, rules, workflow
 ---
 **The following information explains our branching mechanism for Git. This follows the [Git Flow][gitflow] methodology closely and should be the system that we use on *all* projects.**

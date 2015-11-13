@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Committing with Git"
-date:   2015-10-05 12:01:54
+date:   2015-11-13 12:01:54
 categories: git, rules
 ---
 
